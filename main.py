@@ -103,6 +103,7 @@ def turn():
                 print(playername, "tries to strike the", enemy, "and misses.\n")
                 time.sleep(1)
 
+
 # Name the player
 print("hello welcome to the game.")
 time.sleep(.5)
@@ -116,7 +117,7 @@ time.sleep(.5)
 print("Roll the dice to decide your foe")
 roll()
 
-if rollvar != 0:
+if rollvar == 1:
     enemy = "scorpion"
 else:
     enemy = "snake"
